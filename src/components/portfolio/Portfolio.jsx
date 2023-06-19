@@ -16,14 +16,14 @@ import Video from "../video/Video";
 export const Portfolio = () => {
   return (
     <div className={styles.portfolio}>
-      Photography, Web Development, Graphic Design, UX/UI Design, Videography{" "}
-      <div className={styles.container}>
-      <img src={pic1} alt='pic' height='500px' width='300px'></img>
-      <img src={pic2} alt='pic' height='300px' width='500px'></img>
-      <img src={pic11} alt='pic' height='500px' width='300px'></img>
+    Photography, Web Development, Graphic Design, UX/UI Design, Videography{" "}
+    <div className={styles.container}>
+    <img src={pic1} alt='pic' height='500px' width='300px'></img>
+    <img src={pic2} alt='pic' height='300px' width='500px'></img>
+    <img src={pic11} alt='pic' height='500px' width='300px'></img>
+    <Video  height='300px' width='500px'></Video>
       <img src={pic10} alt='pic' height='500px' width='300px'></img>
       <img src={pic3} alt='pic' height='500px' width='300px'></img>
-      <Video  height='300px' width='500px'></Video>
         <img src={pic6} alt='pic' height='300px' width='500px'></img>
         <img src={pic5} alt='pic' height='500px' width='300px'></img>
         <img src={pic7} alt='pic' height='500px' width='300px'></img>

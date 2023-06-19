@@ -20,7 +20,21 @@
    padding: 10px;
 }
 
-.hatImg {
-
+@media screen and (max-width: 720px) {
+    .container { 
+        display: inline;
+        justify-content: center;
+    }
+    
+    .portfolio {
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .container img {
+     height: auto;
+       justify-content: center;
+      
+    }
 }
 
