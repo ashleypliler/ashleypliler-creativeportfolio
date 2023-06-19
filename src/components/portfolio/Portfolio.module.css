@@ -1,0 +1,26 @@
+.container { 
+    display: inline-block;
+    justify-content: center;
+    overflow-wrap: break-word;
+    overflow: auto;
+    justify-content: center;
+    margin: 30px;
+}
+
+.portfolio {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+.container img {
+   max-width: 100%;
+   height: auto;
+   justify-content: center;
+   padding: 10px;
+}
+
+.hatImg {
+
+}
+
