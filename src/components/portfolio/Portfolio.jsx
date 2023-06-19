@@ -9,6 +9,8 @@ import pic6 from "../../images/thrivePizza.png";
 import pic7 from "../../images/dearPerson.png";
 import pic9 from "../../images/logo18.png";
 import pic11 from "../../images/prime-iv.png";
+import pic10 from "../../images/tiffpic.JPG";
+import Video from "../video/Video";
 
 
 export const Portfolio = () => {
@@ -16,14 +18,16 @@ export const Portfolio = () => {
     <div className={styles.portfolio}>
       Photography, Web Development, Graphic Design, UX/UI Design, Videography{" "}
       <div className={styles.container}>
-        <img src={pic1} alt='pic' height='500px' width='300px'></img>
-        <img src={pic2} alt='pic' height='300px' width='500px'></img>
-        <img src={pic11} alt='pic' height='500px' width='300px'></img>
-        <img src={pic4} alt='pic' height='500px' width='300px'></img>
+      <img src={pic1} alt='pic' height='500px' width='300px'></img>
+      <img src={pic2} alt='pic' height='300px' width='500px'></img>
+      <img src={pic11} alt='pic' height='500px' width='300px'></img>
+      <img src={pic10} alt='pic' height='500px' width='300px'></img>
+      <img src={pic3} alt='pic' height='500px' width='300px'></img>
+      <Video  height='300px' width='500px'></Video>
         <img src={pic6} alt='pic' height='300px' width='500px'></img>
         <img src={pic5} alt='pic' height='500px' width='300px'></img>
-        <img src={pic3} alt='pic' height='500px' width='300px'></img>
         <img src={pic7} alt='pic' height='500px' width='300px'></img>
+        <img src={pic4} alt='pic' height='500px' width='300px'></img>
         <img src={pic9} alt='pic' height='500px' width='300px'></img>
       </div>
     </div>
