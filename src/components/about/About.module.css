@@ -32,3 +32,12 @@
     top: 800px;
     background-color: #f6F4F1;
 }
+
+
+@media screen and (max-width: 720px) {
+  
+    .bottom {
+        display: none;
+        
+    }
+}
