@@ -6,11 +6,12 @@ import pic3 from "../../images/lennon.JPG";
 import pic4 from "../../images/cookies.JPG";
 import pic2 from "../../images/golden-hat.png";
 import pic6 from "../../images/thrivePizza.png";
-import pic7 from "../../images/dearPerson.png";
 import pic9 from "../../images/logo18.png";
 import pic11 from "../../images/prime-iv.png";
 import pic10 from "../../images/tiffpic.JPG";
+import pic12 from "../../images/kenna.jpg";
 import Video from "../video/Video";
+import Video1 from "../video 2/Video";
 
 
 export const Portfolio = () => {
@@ -24,11 +25,12 @@ export const Portfolio = () => {
     <Video  height='300px' width='500px'></Video>
       <img src={pic10} alt='pic' height='500px' width='300px'></img>
       <img src={pic3} alt='pic' height='500px' width='300px'></img>
-        <img src={pic6} alt='pic' height='300px' width='500px'></img>
+      <Video1 height='300px' width='500px'></Video1> 
+      <img src={pic6} alt='pic' height='300px' width='500px'></img>
         <img src={pic5} alt='pic' height='500px' width='300px'></img>
-        <img src={pic7} alt='pic' height='500px' width='300px'></img>
-        <img src={pic4} alt='pic' height='500px' width='300px'></img>
         <img src={pic9} alt='pic' height='500px' width='300px'></img>
+        <img src={pic4} alt='pic' height='500px' width='300px'></img>
+        <img src={pic12} alt='pic' height='500px' width='300px'></img>
       </div>
     </div>
   );
