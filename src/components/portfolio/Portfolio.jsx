@@ -7,7 +7,7 @@ import pic4 from "../../images/cookies.JPG";
 import pic2 from "../../images/golden-hat.png";
 import pic6 from "../../images/thrivePizza.png";
 import pic9 from "../../images/logo18.png";
-import pic11 from "../../images/prime-iv.png";
+import pic11 from "../../images/PrimeIVFlyer.png";
 import pic10 from "../../images/tiffpic.JPG";
 import pic12 from "../../images/kenna.jpg";
 import Video from "../video/Video";
