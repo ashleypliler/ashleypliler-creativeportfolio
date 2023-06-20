@@ -10,9 +10,10 @@ export const Skills = () => {
   return (
     <div className={styles.slider_container}>
      <Swiper
+        className={styles.swiper}
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={5}
-        slidesPerView={3}
+        slidesPerView={2}
         navigation
         breakpoints={{
             340: {

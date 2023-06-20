@@ -16,7 +16,6 @@ import Video from "../video/Video";
 export const Portfolio = () => {
   return (
     <div className={styles.portfolio}>
-      Photography, Web Development, Graphic Design, UX/UI Design, Videography{" "}
       <div className={styles.container}>
         <img src={pic1} alt="pic" height="500px" width="300px"></img>
         <img src={pic2} alt="pic" height="300px" width="500px"></img>
